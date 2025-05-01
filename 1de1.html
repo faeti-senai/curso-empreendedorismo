@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="msapplication-tap-highlight" content="no">
+  <meta name="description" content="">
+
+  <title>SENAI-SP / CSEAD</title>
+
+  <!-- Favicons-->
+  <link rel="icon" href="img/favicon-32x32.png" sizes="32x32">
+  <link href="css/icon.css" rel="stylesheet">
+
+  <!-- CSS-->
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <link href="css/estilo.css" rel="stylesheet" type="text/css">
+  <link href="css/progress-circle.css" rel="stylesheet" type="text/css">
+	
+  <!-- Estilos Acessibilidade -->
+  <link id="contraste" href="" rel="stylesheet" />
+
+  <!-- Estilo de Fonte -->
+  <link id="fonte" href="" rel="stylesheet" />
+
+</head>
+  
+<body>
+
+<header class="clr-section1">
+	
+<nav>
+    <div class="nav-wrapper">
+      <div class="col s12" style=" padding-left: 50px">
+        <a href="index.html"><img src="img/logo-senai-ead.png" class="valign"></a>
+        <div id="breadcrumbs"><a href="index.html" class="breadcrumb">Início</a> <a href="#" class="breadcrumb" id="tituloesecao"></a></div>
+      </div>
+    </div>
+</nav>
+
+<div class="fixed-action-btn"> <a class="btn-floating btn-large blue darken-4"> <i class="large material-icons">settings</i> </a>
+
+  <ul>		
+    <li><a class="btn-floating blue darken-4 tooltipped modal-trigger" href="#ajuda" data-position="left" data-tooltip="Ajuda" data-configuracoes="ajuda"><i class="material-icons">help</i></a></li>
+    <li><a class="btn-floating blue darken-4 tooltipped" data-position="left" data-tooltip="Imprimir página" data-configuracoes="imprimir"><i class="material-icons">print</i></a></li>
+    <li><a class="btn-floating blue darken-4 tooltipped" data-position="left" data-tooltip="Auto contraste" data-configuracoes="contraste"><i class="material-icons">brightness_medium</i></a></li>
+    <li><a id="flow-toggle" class="btn-floating blue darken-4 tooltipped" data-position="left" data-tooltip="Tamanho da fonte" data-configuracoes="fonte"><i class="material-icons">format_size</i></a></li>
+  	<li><a id="inicio" class="btn-floating blue darken-4 tooltipped" data-position="left" data-tooltip="Abertura" href="home.html"><i class="material-icons">home</i></a></li>
+  </ul>
+  
+</div>
+	
+</header>
+
+<main id="topo" class="clr-bg-page2">
+
+	<div class="container">
+	 
+  	<div class="container minimal w960">
+
+    	<div class="top-page">
+
+    		<img class="contraste-imgpb" src="img/19005-m01-a01-002-interrogacao.png">
+
+        <h3 class="purple-text lighten-1"><span id="subtitulo"></span></h3>
+
+        <h6>Você já parou para pensar como pode identificar suas habilidades e preferências para empreender?</h6>
+      		
+      </div>
+
+    </div>
+
+  </div>
+	
+		
+  <div class="parallax-container">
+    <div class="parallax"><img class="contraste-imgpb" src="img/m1-1-1-lampadas.jpg"></div>
+  </div>
+
+  <div class="section">
+
+    <div class="row container minimal w960">
+
+      <h5 class="purple-text">Motivações para Empreender</h5>
+
+      <p>A decisão de empreender pode surgir por diferentes motivos, conforme o dia a dia e os objetivos de cada pessoa.</p>
+
+      <p>Trazemos, abaixo, as ideias mais comuns apresentadas pelas pessoas ao abrir um negócio próprio. <em>Selecione os tópicos que você considera motivos coerentes para tomar a decisão de empreender:</em></p>
+
+      <div id="texto" class="collection">
+
+        <div class="col l6 m6 s12">
+
+          <a href="#!" class="collection-item">
+            <p>
+              <label>
+                <input type="checkbox" />
+                <span> Ao empreender trabalhará menos.</span>
+              </label>
+            </p>          
+          </a>
+
+          <a href="#!" class="collection-item">
+            <p>
+              <label>
+                <input type="checkbox" />
+                <span> Empreender para não ter mais chefe.</span>
+              </label>
+            </p>          
+          </a>
+
+          <a href="#!" class="collection-item">
+            <p>
+              <label>
+                <input type="checkbox" />
+                <span> Trabalhar sozinho e não ter que me relacionar com muitas pessoas.</span>
+              </label>
+            </p>          
+          </a>
+          
+          <a href="#!" class="collection-item">
+            <p>
+              <label>
+                <input type="checkbox" />
+                <span> Ganhar muito dinheiro rapidamente.</span>
+              </label>
+            </p>          
+          </a>
+          
+          <a href="#!" class="collection-item">
+            <p>
+              <label>
+                <input type="checkbox" />
+                <span> Impactar de forma positiva a vida das pessoas.</span>
+              </label>
+            </p>          
+          </a>
+
+        </div>
+
+        <div class="col l6 m6 s12">
+
+          <a href="#!" class="collection-item">
+            <p>
+              <label>
+                <input type="checkbox" />
+                <span class="text-grey text-darken-3"> Melhorar algo oferecido pelo mercado.</span>
+              </label>
+            </p>          
+          </a>
+
+          <a href="#!" class="collection-item">
+            <p>
+              <label>
+                <input type="checkbox" />
+                <span> Vontade de se tornar independente.</span>
+              </label>
+          </p>          
+          </a>
+          
+          <a href="#!" class="collection-item">
+            <p>
+              <label>
+                <input type="checkbox" />
+                <span>Aproveitar uma habilidade pessoal ou recurso disponível.</span>
+              </label>
+            </p>          
+          </a>
+          
+          <a href="#!" class="collection-item">
+            <p>
+              <label>
+                <input type="checkbox" />
+                <span> Aumentar os ganhos.</span>
+              </label>
+            </p>          
+          </a>
+          
+          <a href="#!" class="collection-item">
+            <p>
+              <label>
+                <input type="checkbox" />
+                <span> Insegurança ou instabilidade na situação atual.</span>
+              </label>
+            </p>          
+          </a>
+
+        </div>
+
+      </div>
+
+      <p class="section center-align"><a class="waves-effect waves-light btn modal-trigger" href="#!" id="verificar">Verificar Resposta</a></p>
+
+		  <!-- Modal Structure -->
+      <div id="modal" class="modal modal-fixed-footer">
+
+        <div class="modal-content grey-text text-darken-3 lighten-3">
+          <h5 class="purple-text">Atenção!</h5>
+          <p>Os aspectos que motivam o ato de empreender devem ser dosados para que você não aja de maneira precipitada, não planejada.</p>
+          <p>Os empreendedores trabalham muito para transformar seus sonhos em negócios, especialmente no início do empreendimento. Basta pensar que as decisões relativas ao negócio serão responsabilidade do empreendedor.</p>
+          <p>Costuma-se dizer que o próprio negócio é o ‘chefe’ do empreendedor, afinal se você não conhecer e se adequar ao contexto do mercado em que decidir atuar, poderá ter dificuldades para fazer o negócio acontecer.</p>
+          <p>É possível desenvolver uma atividade sem o envolvimento de uma equipe, mas o empreendedor terá que se relacionar com clientes, com fornecedores de produtos e serviços, com pessoas para formar parcerias, entre outros exemplos.</p>
+          <p>E o dinheiro é resultado de esforços prévios em identificação de oportunidades inovadoras, planejamento, gerenciamento e definição de ações estratégicas. </p>
+        </div>
+
+        <div class="modal-footer">
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat">Fechar</a>
+        </div>
+
+      </div>
+		
+		<div id="modal-error" class="modal">
+			<div class="modal-content">
+				<h4>Atenção!</h4>
+				<p><em>Assinale</em> os tópicos que você considera motivos coerentes para tomar a decisão de empreender.</p>
+			</div>
+			<div class="modal-footer">
+				<a href="#!" class="modal-action modal-close waves-effect waves-green btn">Fechar</a>
+			</div>
+		</div>
+		
+	  </div> 
+	</div>
+	
+  <div class="section grey lighten-4">
+	  <div class="row container minimal w960">
+      <p>É claro que <strong>cada um tem seus motivos pessoais e não cabe julgá-los</strong>. Porém, é necessário refletir sobre alguns pontos.</p>
+
+      <p>O importante é que se você pretende iniciar um empreendimento, <strong>reflita sobre suas motivações</strong>. Sejam quais forem os motivos, é necessário reconhecê-los e saber como estão influenciando as suas ações, bem como saber<strong> como se preparar para empreender</strong>, o quanto você precisará se dedicar para desenvolver comportamentos que te levem na direção de seus objetivos e metas.</p>
+       <p>E falando em comportamento, você acredita que é possível desenvolver comportamentos empreendedores ou as pessoas já nascem prontas para empreender? Pense sobre isso e siga em frente em seu estudo para conhecer mais sobre os comportamentos das pessoas empreendedoras.</p>
+
+    </div>
+  </div>
+
+  <div class="grey lighten-4 bgcontraste1">
+    <img class="fit center contraste-imgpb" style="max-width: 550px" src="img/19005-m01-a01-003-plano.png">
+  </div>
+	
+  <div class="section light-blue lighten-5">
+
+    <div class="row container minimal w960">
+
+      <h5 class="purple-text darken-1-text">Razão, Emoção e Ação</h5>
+
+      <p>Muitas vezes, os pensamentos surgem em meio à emoções e sentimentos que geram sensações e percepções que impulsionam nosso comportamento para agir ou reagir de determinada forma. A consciência, por outro lado, busca o equilíbrio na razão e <strong>analisa se o que pensamos e sentimos</strong>, bem como se o impulso inicial, <strong>têm sentido</strong>, e <strong>quais seriam as consequências ao agir na direção pensada. É a partir deste ponto que se organiza uma ideia</strong>, se impulsiona uma atitude que define o comportamento para uma ação.</p>
+
+      <p>Em nosso dia a dia, temos que tomar muitas decisões como: qual caminho seguir; qual ação será mais acertada para os desafios que surgirem.</p>
+
+      <div class="row">
+        <div class="col l4 s12">
+          <img class="center fit contraste-imgpb" src="img/19005-m01-a01-004-razao.png" style="max-width: 310px">
+        </div>
+        <div class="col l8 s12">
+          <p><strong>Nossas decisões sempre envolvem doses de razão e de emoção.</strong><br>
+        É necessário buscar equilíbrio e harmonia entre estes elementos, uma vez que antes de tomar uma decisão definitiva, precisamos pensar nas consequências e balancear prós e contras para evitar perdas. Agindo dessa forma, ponderando razão e emoção, as chances de evitar perdas e maximizar ganhos são maiores.</p>
+        </div>
+      </div>
+
+      <p>Às vezes, buscamos explicações para um fato que ocorre no nosso dia a dia, considerando o resultado de nosso comportamento ou do comportamento de outra pessoa. Quando assumimos as responsabilidades pelas nossas ações, aumentamos a chance de compreender situações e controlar emoções para decidir racionalmente sobre o que fazer.</p>
+
+      <p>Em outras palavras, quando <strong>o empreendedor traz para si a responsabilidade</strong> do controle pelos resultados, ele potencializa sua <strong>capacidade de agir na busca de objetivos e metas, e de enfrentar os desafios do caminho.</strong></p>
+
+      <p>O principal diferencial das pessoas que buscam a realização é que elas não esperam as coisas acontecerem, elas se antecipam e movem-se para ter maior controle sobre os acontecimentos e resultados esperados.</p>
+
+      <p>Uma pessoa empreendedora sabe que a <strong>razão e a emoção</strong> estarão presentes na tomada de decisões, e que <strong>é na ação que o ato de empreender se concretiza.</strong></p>
+
+      <p>Empreender é realizar e fazer acontecer.</p>
+
+    </div>
+
+  </div>
+	
+	<div class="section">
+
+    <div class="row container minimal w960">
+
+      <h5 class="purple-text darken-1-text">Característica de um Empreendedor</h5>
+
+      <p>Empreendedores são movidos por necessidades ou buscam aproveitar oportunidades. O <strong>empreendedor visa promover mudanças e impactos</strong> com suas ações e seu contexto de atuação não se restringe a uma determinada profissão ou atividade.</p>
+
+      <p>Considerando estas premissas, acompanhe abaixo a história de um empreendedor.</p>
+
+      <p><em>Clique nas setas para avançar.</em></p>
+
+      <div class="slideshow-wrapper">
+      
+        <div class="slideshow-container">
+
+          <span id="contador-slides" class="valign-wrapper amber accent-4 white-text">0/0</span>
+
+          <div class="myslideshow" style="display: block;">
+
+            <img class="fit contraste-imgpb" src="img/19005-m01-a01-005a-oficina.jpg">
+            
+            <p>João foi funcionário de uma oficina mecânica por 10 anos.</p>
+
+          </div>
+
+          <div class="myslideshow">
+
+            <img class="fit contraste-imgpb" src="img/19005-m01-a01-005b-oficina.jpg">
+            
+            <p>Muitas vezes, realizava serviços extras em sua casa para complementar a renda de sua família.</p>
+            
+          </div>
+
+          <div class="myslideshow">
+
+            <img class="fit contraste-imgpb" src="img/19005-m01-a01-005c-cafe.jpg">
+            
+            <p>Numa conversa surgiu a ideia de abrir sua própria oficina. Resolveu estudar para empreender e relembrar os tempos do ensino técnico.</p>
+            
+          </div>
+
+          <div class="myslideshow">
+
+            <img class="fit contraste-imgpb" src="img/19005-m01-a01-005d-automotivo.jpg">
+            
+            <p>Pesquisou sobre o mercado automotivo para definir quais serviços oferecer, quem seria o público-alvo do negócio e os recursos necessários para abrir uma empresa.</p>
+            
+          </div>
+
+          <div class="myslideshow">
+
+            <img class="fit contraste-imgpb" src="img/19005-m01-a01-005e-dinheiro.jpg">
+            
+            <p>Enquanto planejava o negócio próprio, João teve problemas pessoais e utilizou parte do dinheiro para outras atividades.</p>
+            
+          </div>
+
+          <div class="myslideshow">
+
+            <img class="fit contraste-imgpb" src="img/19005-m01-a01-005f-pensando.jpg">
+            
+            <p>O imprevisto o fez adiar seus planos e pensar em alternativas.</p>
+            
+          </div>
+
+          <div class="myslideshow">
+
+            <img class="fit contraste-imgpb" src="img/19005-m01-a01-005g-negocio.jpg">
+            
+            <p>Um novo modelo de negócio surgiu na sua mente: profissionais diferentes no mesmo local, prestando vários serviços automotivos.</p>
+            
+          </div>
+
+          <div class="myslideshow">
+
+            <img class="fit contraste-imgpb" src="img/19005-m01-a01-005h-conversa.jpg">
+            
+            <p>Para isso, precisava encontrar empreendedores para investir com ele. Encontrou um colega especialista em elétrica que abraçou a sua ideia.</p>
+            
+          </div>
+
+          <div class="myslideshow">
+
+            <img class="fit contraste-imgpb" src="img/19005-m01-a01-005i-organizacao.jpg">
+            
+            <p>Juntos, reorganizaram o plano, definiram os objetivos e datas de cada atividade que precisariam executar.</p>
+            
+          </div>
+
+          <div class="myslideshow">
+
+            <img class="fit contraste-imgpb" src="img/19005-m01-a01-005j-oficina.jpg">
+            
+            <p>Iniciaram o negócio e, com o passar do tempo, agregaram serviços automotivos em parceria com outros profissionais.</p>
+            
+          </div>
+
+          <div class="myslideshow">
+
+            <img class="fit contraste-imgpb" src="img/19005-m01-a01-005k-forte.jpg">
+            
+            <p>João não desistiu diante da adversidade, nem com todos os desafios do início do negócio.<br>
+            Ao contrário, os desafios mostraram novos caminhos.</p>
+            
+          </div>
+
+          <div class="myslideshow">
+
+            <img class="fit contraste-imgpb" src="img/19005-m01-a01-005l-oficina.jpg">
+            
+            <p>Hoje, é o responsável pelo centro de serviços, com vários profissionais. Conquistou sua independência financeira, vem prosperando e está sempre observando como está o mercado, e como se adequar.</p>
+            
+          </div>
+
+
+          <!-- Próximo/Anterior -->
+          <a class="anterior" onclick="plusSlides(-1)"> <i class="material-icons">keyboard_arrow_left</i></a>
+          <a class="proximo" onclick="plusSlides(1)">  <i class="material-icons">keyboard_arrow_right</i></a>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="reflita-container orange">
+    <div class="col-reflita purple contraste-imgcolor">
+      <img class="fit right" src="img/19005-m01-a01-005_reflita.png" style="max-width: 200px;">
+    </div>
+
+    <div class="col-reflita">
+      <div>
+        <p class="white-text" align="left">Você considera que o personagem agiu de forma empreendedora? Quais foram as características empreendedoras que se destacaram em seu comportamento?</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="section">
+
+    <div class="row container minimal w960">
+
+      <p>Conheça alguns diferenciais dos empreendedores:</p>
+
+      <ul>
+        <li> <i class="material-icons">check</i> têm disposição para sair da rotina,</li>
+        <li> <i class="material-icons">check</i> planejam suas atividades antes da execução,</li>
+        <li> <i class="material-icons">check</i> têm ações e prazos definidos,</li>
+        <li> <i class="material-icons">check</i> analisam resultados e avaliam a necessidade de efetuar mudanças,</li>
+        <li> <i class="material-icons">check</i> agem diante das adversidades,</li>
+        <li> <i class="material-icons">check</i> têm compromisso com a qualidade e foco no cliente,</li>
+        <li> <i class="material-icons">check</i> lideram de maneira eficiente.</li>
+      </ul>
+
+      <p>Ações estratégicas caracterizam o empreendedor que tem clareza de suas metas e gerencia seu negócio para alcançá-las. Para se desenvolver e manter a competitividade no mercado, é importante ter segurança nas decisões tomadas e confiar nas suas competências para enfrentar dificuldades e superar desafios.</p>
+
+    </div>
+
+  </div>
+
+  <div class="section yellow lighten-4">
+
+    <div class="row container minimal w960">
+
+      <h5 class="purple-text darken-1-text">Sonhos e Metas</h5>
+
+      <p>Os sonhos são a expressão dos nossos desejos e anseios e representam fatores motivadores na busca pela realização pessoal e pelo desenvolvimento profissional.</p>
+
+      <p>Porém, deve existir um caminho entre o sonho e a realidade. Ou seja, é preciso definir os passos para transformar sonhos em realidade.</p>
+
+      <p>Para isso, primeiramente é preciso sonhar, por mais óbvio que isso possa parecer. Muitas vezes, devido à rotina estressante, influências desencorajadoras de outras pessoas ou experiências negativas, as pessoas desconsideram seus sonhos e passam a duvidar de que possam alcançá-los.</p>
+
+      <p>Empreendedores são pessoas visionárias que imaginam o que querem alcançar e realizar. Mas ao mesmo tempo, são pessoas que agem para transformar seus sonhos em realidade.</p>
+
+    </div>
+
+  </div>
+
+  <div class="blue bgcontraste1">
+    <img class="center fit contraste-imgpb" src="img/19005-m01-a01-006_sonhos.png" style="max-width: 750px;">
+  </div>
+
+  <div class="section yellow lighten-4">
+
+    <div class="row container minimal w960">
+
+      <p>Quer empreender? Confie em seus sonhos e, a partir deles, defina seus objetivos e metas, estabeleça os passos para alcançar o que deseja.</p>
+
+      <p><em>Clique nos tópicos para saber como iniciar:</em></p>
+
+		<div class="col s12 m12 l8 center">
+      <ul class="collapsible">
+        <li>
+          <div class="collapsible-header left-align">
+            Sonhe <span class="badge"><i class="material-icons">keyboard_arrow_down</i></span>
+          </div>
+          <div class="collapsible-body">
+            <span>Defina o que deseja alcançar.</span>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header left-align">
+            Avalie oportunidades e riscos<span class="badge"><i class="material-icons">keyboard_arrow_down</i></span>
+          </div>
+          <div class="collapsible-body">
+            <span>Busque e analise informações para identificar oportunidades e riscos para concretizar seus sonhos. Lembre-se de que empreendedores agem para aproveitar as oportunidades e minimizar os riscos.</span>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header left-align">
+            Defina metas<span class="badge"><i class="material-icons">keyboard_arrow_down</i></span>
+          </div>
+          <div class="collapsible-body">
+            <span>Transforme seus sonhos em metas claras, específicas, com prazos definidos e que possam ser alcançados.</span>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header left-align">
+            Planeje os passos para alcançar suas metas<span class="badge"><i class="material-icons">keyboard_arrow_down</i></span>
+          </div>
+          <div class="collapsible-body">
+            <span>Elabore um plano listando as ações que precisam ser realizadas para que suas metas se concretizem. Defina prazos para realizar cada ação planejada.</span>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header left-align">
+            Aja e monitore o planejamento<span class="badge"><i class="material-icons">keyboard_arrow_down</i></span>
+          </div>
+          <div class="collapsible-body">
+            <span>Realize ações planejadas, conferindo resultados e agindo para solucionar problemas e enfrentar desafios que surgirem.</span>
+          </div>
+        </li>
+      </ul>
+		</div>
+      <p>O comportamento empreendedor se desenvolve na prática reflexiva do dia a dia, a partir das ações realizadas e dos resultados alcançados. Desenvolva uma conduta empreendedora analisando seus comportamentos e o que precisa aprimorar para seguir rumo aos seus sonhos e metas. Este curso não lhe entregará um “diploma de empreendedor”, suas características colocadas em prática é que mostrarão o quanto você está agindo como empreendedor.</p>
+
+      <p>Como empreendedor você precisa ter metas claras. <em>Clique e faça download</em> do arquivo modelo para um plano de ação.</p>
+		
+      <p align="center"><a href="docs/meta.docx" class="download purple-text darken-1-text" download><i class="material-icons valign">file_download</i>Colocando em Prática</a></p>
+		  
+    </div>
+
+  </div>
+	
+	<div class="section teal lighten-4 exercicios">
+
+		<div class="row container minimal w960">
+        	<h4 class="header">Exercícios</h4>			
+		</div>
+	</div>	
+
+  <!-- Modal de AJUDA -->
+  <div id="ajuda" class="modal modal-fixed-footer">
+
+    <div class="modal-content">
+
+      <i class="material-icons medium dp48 right">help_outline</i>
+
+      <div class="row container minimal">
+
+        <h6>Orientações de navegação: </h6>
+
+        <div class="row valign-wrapper paddingtopbottom">
+          <div class="col l3 m3 s12">
+            <img class="valign" style="max-width: 120px;" src="img/help01.png">
+          </div>
+          <div class="col l9 m9 s12">
+            <p>Indica a percentagem do curso que você já concluiu.</p>
+          </div>  
+        </div>
+
+        <div class="row valign-wrapper paddingtopbottom">
+          <div class="col l3 m3 s12">
+            <img class="valign" style="max-width: 120px;" src="img/help02.png">
+          </div>
+          <div class="col l9 m9 s12">
+            <p>Indica quantos exercícios você acertou.</p>
+          </div>
+        </div>
+
+        <div class="row valign-wrapper paddingtopbottom">
+          <div class="col l3 m3 s12">
+            <img class="valign" style="max-width: 120px;" src="img/help03.png">
+          </div>
+          <div class="col l9 m9 s12">
+            <p>Do total de 12 exercícios quantos você já concluiu.</p>
+          </div>
+        </div>
+
+        <div class="row valign-wrapper paddingtopbottom">
+          <div class="col l3 m3 s12">
+            <img class="valign" style="max-width: 120px;" src="img/help04.png">
+          </div>
+          <div class="col l9 m9 s12">
+            <p>Retorna para página de apresentação dos módulos/fases.</p>
+          </div>
+        </div>
+
+        <div class="row valign-wrapper paddingtopbottom">
+          <div class="col l3 m3 s12">
+            <img class="valign" style="max-width: 120px;" src="img/help12.png">
+          </div>
+          <div class="col l9 m9 s12">
+            <p>Retorna para página de apresentação dos módulos/fases.</p>
+          </div>
+        </div>
+
+        <div class="row valign-wrapper paddingtopbottom">
+          <div class="col l3 m3 s12">
+            <img class="valign" style="max-width: 120px;" src="img/help05.png">
+          </div>
+          <div class="col l9 m9 s12">
+            <p>Exibe opções de configuração do curso.</p>
+          </div>
+        </div>
+
+        <div class="row valign-wrapper paddingtopbottom">
+          <div class="col l3 m3 s12">
+            <img class="valign" style="max-width: 120px;" src="img/help13.jpg">
+          </div>
+          <div class="col l9 m9 s12">
+            <p>Volta para a página de abertura do curso.</p>
+          </div>
+        </div>
+
+        <div class="row valign-wrapper paddingtopbottom">
+          <div class="col l3 m3 s12">
+            <img class="valign" style="max-width: 120px;" src="img/help06.png">
+          </div>
+          <div class="col l9 m9 s12">
+            <p>Aumenta ou diminui o tamanho da fonte. Opção de acessibilidade.</p>
+          </div>
+        </div>
+
+        <div class="row valign-wrapper paddingtopbottom">
+          <div class="col l3 m3 s12">
+            <img class="valign" style="max-width: 120px;" src="img/help07.png">
+          </div>
+          <div class="col l9 m9 s12">
+            <p>Ajusta o contraste da tela. Opção de acessibilidade.</p>
+          </div>
+        </div>
+
+        <div class="row valign-wrapper paddingtopbottom">
+          <div class="col l3 m3 s12">
+            <img class="valign" style="max-width: 120px;" src="img/help08.png">
+          </div>
+          <div class="col l9 m9 s12">
+            <p>Permite a impressão da página atual do curso.</p>
+          </div>
+        </div>
+
+        <div class="row valign-wrapper paddingtopbottom">
+          <div class="col l3 m3 s12">
+            <img class="valign" style="max-width: 120px;" src="img/help09.png">
+          </div>
+          <div class="col l9 m9 s12">
+            <p>Exibe estas orientações de navegação.</p>
+          </div>
+        </div>
+
+        <div class="row valign-wrapper paddingtopbottom">
+          <div class="col l3 m3 s12">
+            <img class="valign" style="max-width: 120px;" src="img/help10.png">
+          </div>
+          <div class="col l9 m9 s12">
+            <p>Volta para o topo da página.</p>
+          </div>
+        </div>
+
+        <div class="row valign-wrapper paddingtopbottom">
+          <div class="col l3 m3 s12">
+            <img class="valign" style="max-width: 120px;" src="img/help11.png">
+          </div>
+          <div class="col l9 m9 s12">
+            <p>Avança para a próxima aula.</p>
+          </div>
+        </div>
+
+        <h6>Orientações para os exercícios:</h6>
+
+        <p>Fique atento ao responder os exercícios, você terá apenas uma chance!</p>
+        <p>Leia atentamente o enunciado e as alternativas e caso necesário, leia novamente.</p>
+    
+      </div>
+
+    </div>
+
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Fechar</a>
+    </div>
+
+  </div>
+	
+</main>
+	
+	
+<footer class="page-footer clr-section1">
+
+  <div class="container">
+
+    <div class="row">
+          
+			<div class="col l3 m3 hide-on-small-only">&nbsp;</div>
+        <div class="col l6 s12">
+				  
+      		<table>
+
+            <thead>
+              <tr>
+                <td width="90%">Próxima aula:</td>
+      			    <td>&nbsp;</td>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <th id="proxima-aula"><a href=""></a></th>
+                <th><a id="proxima-pagina" href="#!"><i class="medium material-icons z-depth-3 circle">navigate_next</i></a></th>
+              </tr>
+            </tbody>
+
+          </table>
+	
+        </div>
+
+        <div class="col l3 m3 hide-on-small-only">&nbsp;</div>
+	
+    </div>
+			
+    <div class="footer-copyright">
+
+      <div class="col l6 s12">
+        <p>Empreender SENAI</p>
+      </div>
+		  <div class="col l6 s12">
+        <a class="grey-text text-lighten-4 right" href="#topo"><i class="small material-icons right">arrow_upward</i></a>
+      </div>
+
+    </div>
+
+  </div>
+
+</footer>
+	
+<!--  Scripts--> 
+<script src="js/jquery-3.3.1.js"></script> 
+<script src="js/materialize.js"></script> 
+<script src="js/init.js"></script> 
+
+<!-- SCORM --> 
+<script src="js/scorm/APIWrapper.js"></script> 
+<script src="js/scorm/SCOFunctions.js"></script>
+	
+<script type="text/javascript" src="js/blocos.json"></script>
+<script type="text/javascript" src="js/exercicios.js"></script>
+<script type="text/javascript" src="js/slideshow.js"></script>	
+<script type="text/javascript" src="js/secao.js"></script>
+
+<!-- CONFIGURAÇÕES --> 
+<script src="js/configuracoes.js"></script> 
+</body>
+</html>

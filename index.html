@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="msapplication-tap-highlight" content="no">
+  <meta name="description" content="">
+
+  <title>FAETI</title>
+
+  <!-- Favicons-->
+  <link rel="icon" href="img/favicon-32x32.png" sizes="32x32">
+  <link href="css/icon.css" rel="stylesheet">
+
+  <!-- CSS-->
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection">
+  <link href="css/estilo.css" rel="stylesheet" type="text/css">
+  <link href="css/progress-circle.css" rel="stylesheet" type="text/css">
+
+  <!-- Estilos Acessibilidade -->
+  <link id="contraste" href="" rel="newest stylesheet" />
+
+  <!-- Estilo de Fonte -->
+  <link id="fonte" href="" rel="stylesheet" />
+
+</head>
+	
+<body>
+
+<header>
+	
+<nav>
+    <div class="nav-wrapper">
+      <div class="col s12" style=" padding-left: 50px">
+        <a href="index.html"><a href="index.html"><img src="img/logo-senai-ead.png" class="valign"></a></a>
+      </div>
+    </div>
+</nav>
+	
+<div class="fixed-action-btn"> <a class="btn-floating btn-large blue darken-4 pulse"> <i class="large material-icons">settings</i> </a>
+    
+	<ul>		
+		<li><a class="btn-floating blue darken-4 tooltipped modal-trigger " href="#ajuda" data-position="left" data-tooltip="Ajuda" data-configuracoes="ajuda"><i class="material-icons">help</i></a></li>
+		<li><a class="btn-floating blue darken-4 tooltipped" data-position="left" data-tooltip="Imprimir página" data-configuracoes="imprimir"><i class="material-icons">print</i></a></li>
+		<li><a class="btn-floating blue darken-4 tooltipped" data-position="left" data-tooltip="Auto contraste" data-configuracoes="contraste"><i class="material-icons">brightness_medium</i></a></li>
+		<li><a id="flow-toggle" class="btn-floating blue darken-4 tooltipped" data-position="left" data-tooltip="Tamanho da fonte" data-configuracoes="fonte"><i class="material-icons">format_size</i></a></li>
+		<li><a id="inicio" class="btn-floating blue darken-4 tooltipped" data-position="left" data-tooltip="Abertura" href="home.html"><i class="material-icons">home</i></a></li>
+	</ul>
+  
+</div>	
+ 
+</header>
+
+<main id="topo" class="indigo darken-3">
+
+
+
+	<div id="content">
+		
+	<div class="main-top">
+		
+		<div class="top-page minimal">
+
+			<h1 class="white-text"><span class="lime-text text-accent-2">Empreender</span> SENAI</h1>
+
+			<div class="white">
+
+				<div class="container">
+			
+					<div id="progresso" class="row w960">
+						
+						<div class="col l4 s12">
+							<div class="legenda">Progresso do curso</div>
+
+						   	<div><div class="progress-circle"></div> <span id="progressoGeral" class="fonte-plus"></span>%</div>
+						</div>
+
+						<div class="col l4 s12">
+							<div class="legenda">Respostas corretas</div>
+						   	<div><i class="medium material-icons"> check_circle</i> <span id="exerciciosCorretos" class="fonte-plus"></span>%</div>
+						</div>
+
+						<div class="col l4 s12">
+							<div class="legenda"> Exercícios concluídos</div>
+						   	<div><i class="medium material-icons"> rotate_right</i> <span id="exerciciosRealizados" class="fonte-plus"></span><span id="totalExercicios">/</span></div>
+						</div>
+						
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<div id="blocos" class="row w960">
+
+	</div>		
+		
+	</div>
+
+</main>
+	
+	
+  <!-- Modal de AJUDA -->
+  <div id="ajuda" class="modal modal-fixed-footer">
+
+    <div class="modal-content">
+
+      <i class="material-icons medium dp48 right">help_outline</i>
+
+      <div class="row container minimal">
+
+        <h6>Orientações de navegação: </h6>
+
+        <div class="row valign-wrapper paddingtopbottom">
+          <div class="col l3 m3 s12">
+            <img class="valign" style="max-width: 120px;" src="img/help01.png">
+          </div>
+          <div class="col l9 m9 s12">
+            <p>Indica a percentagem do curso que você já concluiu.</p>
+          </div>  
+        </div>
+
+        <div class="row valign-wrapper paddingtopbottom">
+          <div class="col l3 m3 s12">
+            <img class="valign" style="max-width: 120px;" src="img/help02.png">
+          </div>
+          <div class="col l9 m9 s12">
+            <p>Indica quantos exercícios você acertou.</p>
+          </div>
+        </div>
+
+        <div class="row valign-wrapper paddingtopbottom">
+          <div class="col l3 m3 s12">
+            <img class="valign" style="max-width: 120px;" src="img/help03.png">
+          </div>
+          <div class="col l9 m9 s12">
+            <p>Do total de 12 exercícios quantos você já concluiu.</p>
+          </div>
+        </div>
+
+        <div class="row valign-wrapper paddingtopbottom">
+          <div class="col l3 m3 s12">
+            <img class="valign" style="max-width: 120px;" src="img/help04.png">
+          </div>
+          <div class="col l9 m9 s12">
+            <p>Retorna para página de apresentação dos módulos/fases.</p>
+          </div>
+        </div>
+
+        <div class="row valign-wrapper paddingtopbottom">
+          <div class="col l3 m3 s12">
+            <img class="valign" style="max-width: 120px;" src="img/help12.png">
+          </div>
+          <div class="col l9 m9 s12">
+            <p>Retorna para página de apresentação dos módulos/fases.</p>
+          </div>
+        </div>
+
+        <div class="row valign-wrapper paddingtopbottom">
+          <div class="col l3 m3 s12">
+            <img class="valign" style="max-width: 120px;" src="img/help05.png">
+          </div>
+          <div class="col l9 m9 s12">
+            <p>Exibe opções de configuração do curso.</p>
+          </div>
+        </div>
+
+        <div class="row valign-wrapper paddingtopbottom">
+          <div class="col l3 m3 s12">
+            <img class="valign" style="max-width: 120px;" src="img/help13.jpg">
+          </div>
+          <div class="col l9 m9 s12">
+            <p>Volta para a página de abertura do curso.</p>
+          </div>
+        </div>
+
+        <div class="row valign-wrapper paddingtopbottom">
+          <div class="col l3 m3 s12">
+            <img class="valign" style="max-width: 120px;" src="img/help06.png">
+          </div>
+          <div class="col l9 m9 s12">
+            <p>Aumenta ou diminui o tamanho da fonte. Opção de acessibilidade.</p>
+          </div>
+        </div>
+
+        <div class="row valign-wrapper paddingtopbottom">
+          <div class="col l3 m3 s12">
+            <img class="valign" style="max-width: 120px;" src="img/help07.png">
+          </div>
+          <div class="col l9 m9 s12">
+            <p>Ajusta o contraste da tela. Opção de acessibilidade.</p>
+          </div>
+        </div>
+
+        <div class="row valign-wrapper paddingtopbottom">
+          <div class="col l3 m3 s12">
+            <img class="valign" style="max-width: 120px;" src="img/help08.png">
+          </div>
+          <div class="col l9 m9 s12">
+            <p>Permite a impressão da página atual do curso.</p>
+          </div>
+        </div>
+
+        <div class="row valign-wrapper paddingtopbottom">
+          <div class="col l3 m3 s12">
+            <img class="valign" style="max-width: 120px;" src="img/help09.png">
+          </div>
+          <div class="col l9 m9 s12">
+            <p>Exibe estas orientações de navegação.</p>
+          </div>
+        </div>
+
+        <div class="row valign-wrapper paddingtopbottom">
+          <div class="col l3 m3 s12">
+            <img class="valign" style="max-width: 120px;" src="img/help10.png">
+          </div>
+          <div class="col l9 m9 s12">
+            <p>Volta para o topo da página.</p>
+          </div>
+        </div>
+
+        <div class="row valign-wrapper paddingtopbottom">
+          <div class="col l3 m3 s12">
+            <img class="valign" style="max-width: 120px;" src="img/help11.png">
+          </div>
+          <div class="col l9 m9 s12">
+            <p>Avança para a próxima aula.</p>
+          </div>
+        </div>
+
+        <h6>Orientações para os exercícios:</h6>
+
+        <p>Fique atento ao responder os exercícios, você terá apenas uma chance!</p>
+        <p>Leia atentamente o enunciado e as alternativas e caso necesário, leia novamente.</p>
+    
+      </div>
+
+    </div>
+
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Fechar</a>
+    </div>
+
+  </div>
+	
+	
+<footer class="page-footer clr-section0">
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col l6 s12">
+
+        <h5 class="white-text">Empreender SENAI</h5>
+
+        <p class="grey-text text-lighten-4">SENAI-SP - Serviço Nacional de Aprendizagem Industrial</p>
+
+      </div>
+				
+    </div>
+
+    <div class="footer-copyright">
+
+      <div class="col l6 s12">
+        <p>© 2019 Todos os direitos reservados</p>
+      </div>
+
+      <div class="col l6 s12">
+        <a class="grey-text text-lighten-4 right" href="#topo"><i class="small material-icons right">arrow_upward</i></a>
+      </div>
+
+    </div>
+
+ </div>
+
+</footer>
+	
+
+<!--  Scripts--> 
+<script src="js/jquery-3.3.1.js"></script> 
+<script src="js/materialize.js"></script> 
+<script src="js/init.js"></script> 
+
+<!-- SCORM --> 
+<script src="js/scorm/APIWrapper.js"></script> 
+<script src="js/scorm/SCOFunctions.js"></script>
+
+	
+<script type="text/javascript" src="js/blocos.json"></script>
+
+<script src="js/acoes.js"></script>	
+	
+<!-- CONFIGURAÇÕES --> 
+<script src="js/configuracoes.js"></script> 
+
+<!-- RENDERIZAÇÃO DOS BLOCOS --> 
+<script src="js/blocos.js"></script>
+	
+</body>
+</html>
